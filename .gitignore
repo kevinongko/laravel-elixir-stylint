@@ -1,0 +1,15 @@
+# Folders
+.idea
+node_modules
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+
+*~
+*.swp
+*.orig
+
+# Files
+npm-debug.log
