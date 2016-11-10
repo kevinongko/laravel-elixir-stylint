@@ -1,6 +1,6 @@
 {
   "name": "laravel-elixir-stylint",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Laravel Elixir Stylint Extension",
   "main": "index.js",
   "author": "Kevin Ongko <kevin.ongko@gmail.com>",
@@ -10,12 +10,12 @@
     "laravel-elixir": "^6.0.0-14",
     "stylint": "^1.5.7"
   },
-  "homepage": "https://gitlab.com/kevinongko/laravel-elixir-stylint",
+  "homepage": "https://github.com/kevinongko/laravel-elixir-stylint",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/kevinongko/laravel-elixir-stylint.git"
+    "url": "https://github.com/kevinongko/laravel-elixir-stylint.git"
   },
   "bugs": {
-    "url": "https://gitlab.com/kevinongko/laravel-elixir-stylint/issues"
+    "url": "https://github.com/kevinongko/laravel-elixir-stylint/issues"
   }
 }
