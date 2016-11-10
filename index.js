@@ -1,29 +1,20 @@
-var Elixir = require('laravel-elixir');
+var elixir = require('laravel-elixir');
 var gulp = require('gulp');
 var stylint = require('gulp-stylint');
 
-var config = Elixir.config;
+var config = elixir.config;
 
-Elixir.extend('stylint', function(src, options) {
-	var source = src || config.get('assets.stylus.folder') + '/**/*.styl';
+elixir.extend('stylint', function(src, options) {
+	var source = src || config.get('assets.css.stylus.folder') + '/**/*.styl';
 
-	var paths = new Elixir.GulpPaths().src(source);
+	var paths = new elixir.GulpPaths().src(source);
 
-  var onError = function (err) {
-		new Elixir.Notification().error(err, 'Stylus Lint failed!');
-		this.emit('end');
-	};
-
-  new Elixir.Task('stylint', function () {
-		this.log(paths.src);
-
+  new elixir.Task('stylint', function () {
     return gulp.src(paths.src.path)
-      .pipe(this.recordStep(`Executing Stylint`))
 			.pipe(stylint(options))
 			.pipe(stylint.reporter())
-			.on('error', this.onError())
       .pipe(stylint.reporter('fail', { failOnWarning: true }))
-			.pipe(new Elixir.Notification('Stylus Lint succeeded!'));
+			.on('error', this.onError());
   })
 	.watch(paths.src.path);
 });
