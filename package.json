@@ -1,11 +1,11 @@
 {
   "name": "laravel-elixir-stylint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Laravel Elixir Stylint Extension",
   "main": "index.js",
   "author": "Kevin Ongko <kevin.ongko@gmail.com>",
   "license": "MIT",
-  ""dependencies": {
+  "dependencies": {
     "gulp-stylint": "^4.0.0",
     "laravel-elixir": "^6.0.0-14",
     "stylint": "^1.5.7"

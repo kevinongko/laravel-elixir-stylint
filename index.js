@@ -20,8 +20,8 @@ Elixir.extend('stylint', function(src, options) {
     return gulp.src(paths.src.path)
 			.pipe(stylint(options))
 			.pipe(stylint.reporter())
-			.on('error', onError);
-			.pipe(new Elixir.Notification('Styl Lint succeeded!'))
+			.on('error', onError)
+			.pipe(new Elixir.Notification('Styl Lint succeeded!'));
   })
 	.watch(paths.src.path);
 });
