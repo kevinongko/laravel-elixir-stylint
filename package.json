@@ -5,6 +5,14 @@
   "main": "index.js",
   "author": "Kevin Ongko <kevin.ongko@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "laravel",
+    "elixir",
+    "gulp",
+    "stylus",
+    "styl",
+    "lint"
+  ],
   "dependencies": {
     "gulp-stylint": "^4.0.0",
     "laravel-elixir": "^6.0.0-14",
