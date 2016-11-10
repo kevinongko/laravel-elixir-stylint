@@ -1,6 +1,6 @@
 {
   "name": "laravel-elixir-stylint",
-  "version": "1.0.2",
+  "version": "0.0.3",
   "description": "Laravel Elixir Stylint Extension",
   "main": "index.js",
   "author": "Kevin Ongko <kevin.ongko@gmail.com>",
