@@ -2,25 +2,33 @@
 
 [![npm version](https://badge.fury.io/js/laravel-elixir-stylint.svg)](https://badge.fury.io/js/laravel-elixir-stylint)
 
-## Install
+Laravel Elixir Sass Lint Extension based on [Stylint](https://github.com/SimenB/stylint):
+
+## Installation
 
 ```sh
-npm install laravel-elixir-stylint --save-dev
+$ npm install laravel-elixir-stylint --save-dev
 ```
 
 ## Usage
 
-### Lint all files in 'stylus' folder
+In gulpfile.js:
 ```javascript
+// Include Laravel Elixir
 var elixir = require('laravel-elixir');
 
+// Include the extension
 require('laravel-elixir-stylint');
 
+// Lint all files under 'stylus' folder
 elixir(function(mix) {
   mix.stylint();
 });
 ```
-### Lint specific files
+## Sources
+
+Type: `String` or `Array`
+
 ```javascript
 var elixir = require('laravel-elixir');
 
@@ -34,7 +42,7 @@ elixir(function(mix) {
 });
 ```
 
-### Options
+## Options
 ```javascript
 var options = {config: '.stylintrc'}
 
@@ -50,8 +58,12 @@ elixir(function(mix) {
 ## Stylint options
 Type: `Object`
 
-For stylint options [click here](https://github.com/SimenB/stylint#options)
+See stylint options [click here](https://github.com/SimenB/stylint#options)
 
 ## Credits
 - [gulp-stylint](https://github.com/danielhusar/gulp-stylint)
 - [laravel-elixir](https://github.com/laravel/elixir)
+
+## License
+
+Laravel Elixir Stylint is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
