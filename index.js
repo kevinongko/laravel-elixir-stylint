@@ -14,7 +14,7 @@ Elixir.extend('stylint', function(src, options) {
 		this.emit('end');
 	};
 
-  new elixir.Task('stylint', function () {
+  new Elixir.Task('stylint', function () {
 		this.log(paths.src);
 
     return gulp.src(paths.src.path)
