@@ -18,7 +18,7 @@ Elixir.extend('stylint', function(src, options) {
 		this.log(paths.src);
 
     return gulp.src(paths.src.path)
-      .pipe(this.recordStep(`Executing Stylint`)
+      .pipe(this.recordStep(`Executing Stylint`))
 			.pipe(stylint(options))
 			.pipe(stylint.reporter())
 			.on('error', this.onError())
