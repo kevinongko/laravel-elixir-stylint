@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/laravel-elixir-stylint.svg)](https://badge.fury.io/js/laravel-elixir-stylint)
 
-Laravel Elixir Sass Lint Extension based on [Stylint](https://github.com/SimenB/stylint):
+Laravel Elixir Stylus Lint Extension based on [Stylint](https://github.com/SimenB/stylint):
 
 ## Installation
 
@@ -44,7 +44,7 @@ elixir(function(mix) {
 
 ## Options
 ```javascript
-var options = {config: '.stylintrc'}
+var options = { config: '.stylintrc' }
 
 elixir(function(mix) {
   mix.stylint([
@@ -54,11 +54,10 @@ elixir(function(mix) {
 });
 ```
 
-
-## Stylint options
+## Stylint Options
 Type: `Object`
 
-See stylint options [click here](https://github.com/SimenB/stylint#options)
+See [stylint options ](https://github.com/SimenB/stylint#options)
 
 ## Credits
 - [gulp-stylint](https://github.com/danielhusar/gulp-stylint)
