@@ -50,7 +50,7 @@ elixir(function(mix) {
 ## Stylint options
 Type: `Object`
 
-For stylint options [click here](https://github.com/SimenB/stylint)
+For stylint options [click here](https://github.com/SimenB/stylint#options)
 
 ## Credits
 - [gulp-stylint](https://github.com/danielhusar/gulp-stylint)
