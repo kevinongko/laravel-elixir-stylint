@@ -8,7 +8,9 @@
 npm install laravel-elixir-stylint --save-dev
 ```
 
-## gulpfile.js
+## Usage
+
+### Lint all files in 'stylus' folder
 ```javascript
 var elixir = require('laravel-elixir');
 
@@ -18,11 +20,37 @@ elixir(function(mix) {
   mix.stylint();
 });
 ```
+### Lint specific files
+```javascript
+var elixir = require('laravel-elixir');
 
-## Stylint config
+require('laravel-elixir-stylint');
+
+elixir(function(mix) {
+  mix.stylint([
+    'resources/assets/stylus/fileA.styl',
+    'resources/assets/stylus/fileB.styl'
+  ]);
+});
+```
+
+### Options
+```javascript
+var options = {config: '.stylintrc'}
+
+elixir(function(mix) {
+  mix.stylint([
+    'resources/assets/stylus/fileA.styl',
+    'resources/assets/stylus/fileB.styl'
+  ], options);
+});
+```
+
+
+## Stylint options
 Type: `Object`
 
-For gulp-stylint config [click here](https://github.com/danielhusar/gulp-stylint)
+For gulp-stylint options [click here](https://github.com/danielhusar/gulp-stylint)
 
 ## Credits
 - [gulp-stylint](https://github.com/danielhusar/gulp-stylint)
