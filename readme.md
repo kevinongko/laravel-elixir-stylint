@@ -30,10 +30,6 @@ elixir(function(mix) {
 Type: `String` or `Array`
 
 ```javascript
-var elixir = require('laravel-elixir');
-
-require('laravel-elixir-stylint');
-
 elixir(function(mix) {
   mix.stylint([
     'resources/assets/stylus/fileA.styl',
