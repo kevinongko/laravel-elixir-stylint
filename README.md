@@ -1,6 +1,8 @@
 # Laravel Elixir Stylint
 
 [![npm version](https://badge.fury.io/js/laravel-elixir-stylint.svg)](https://badge.fury.io/js/laravel-elixir-stylint)
+[![npm](https://img.shields.io/npm/dt/laravel-elixir-stylint.svg)](https://www.npmjs.com/package/laravel-elixir-stylint)
+[![npm](https://img.shields.io/npm/l/laravel-elixir-stylint.svg)](http://opensource.org/licenses/MIT)
 
 Laravel Elixir Stylus Lint Extension based on [Stylint](https://github.com/SimenB/stylint):
 
