@@ -5,7 +5,7 @@
 [![npm](https://img.shields.io/npm/dm/laravel-elixir-stylint.svg)](https://www.npmjs.com/package/laravel-elixir-stylint)
 [![npm](https://img.shields.io/npm/l/laravel-elixir-stylint.svg)](http://opensource.org/licenses/MIT)
 
-Laravel Elixir Stylus Lint Extension based on [Stylint](https://github.com/SimenB/stylint):
+Laravel Elixir Extension to Lint Stylus based on [Stylint](https://github.com/SimenB/stylint)
 
 ## Installation
 
